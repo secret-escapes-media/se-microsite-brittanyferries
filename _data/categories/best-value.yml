@@ -1,0 +1,21 @@
+navorder: 3
+title: Best Value
+class: best-value
+description: >
+  <p>Whether you are looking to experience golf at the foothills of Europe’s widest stratovolcano, tee it up amid the rolling hills and valleys, or play on the Atlantic coast, France has a wealth of golf courses that offer a unique experience throughout the year, without breaking the bank. </p>
+offers:
+  - title: BV 1
+    class: bv-offer-1
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: BV 2
+    class: bv-offer-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte

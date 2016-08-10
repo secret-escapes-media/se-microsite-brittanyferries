@@ -1,0 +1,18 @@
+
+
+<section class="offers">
+
+  <div class="row row--padding row--columns-4-4-4-gutters">
+
+    <div class="row__column offer">
+      <h2>{{ include.offer-title }}</h2>
+    </div>
+
+    {% for offer in offers %}
+      {% if offer.category == include.offer-category %}
+        {% include offer-block.html %}
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</section>

@@ -52,6 +52,20 @@
   var currentPage = $('body').data('current-page');
   $('.' + currentPage + ' .microsite-nav__item--' + currentPage).addClass('microsite-nav__item--current');
 
+  // stuck microsite-nav
+  $(document).scroll(function(){
+
+    var nav = $('.microsite-nav__holder');
+    var scrolled = $(document).scrollTop();
+
+    if( scrolled > 547 ){
+      nav.addClass('stuck');
+    }else{
+      nav.removeClass('stuck');
+    }
+
+  });
+
 
 ///////////////////////////////////////
 //      SVG image swap
@@ -66,6 +80,36 @@
       $(this).attr('src', newSrc);
     });
   }
+
+
+
+///////////////////////////////////////
+//      Parallax
+///////////////////////////////////////
+
+
+$(document).scroll(function(){
+  var scrolled = $(document).scrollTop();
+  $('.parallax').each(function(){
+    var speed = $(this).attr('data-parallax-speed');
+    var offset = $(this).offset();
+    var parallax = -(scrolled - offset.top) * speed ;
+    $(this).css('background-position', 'center ' + parallax + 'px');
+  });
+});
+
+
+/*/////////////////////////////////////
+//      Offer title sizing
+///////////////////////////////////////
+
+$(document).ready(function(){
+  $('.offer-category__intro').each(function(){
+    var height = $(this).next().height();
+    $(this).css('height', height );
+  });
+});
+*/
 
 
 ///////////////////////////////////////////////////////////////////////////////

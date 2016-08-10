@@ -1,0 +1,21 @@
+navorder: 2
+title: Luxury
+class: luxury
+description: >
+  <p>In two years’ time, France plays host to one of the biggest sporting team events in the world when it welcomes The Ryder Cup to Le Golf National in Paris. This Match, contested between Europe and the USA, will not only put the global golf spotlight on France and its rich array of courses, but it will also underline the number of French golf courses that have previously hosted important events, and are still tournament quality venues to this day…</p>
+offers:
+  - title: Luxury 1
+    class: luxury-1
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Luxury 2
+    class: luxury-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte

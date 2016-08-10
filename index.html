@@ -1,35 +1,49 @@
 ---
 layout: default
+nav-order: 1
 title: Overview
 class: overview
-nav-order: 1
+category:
+banner-img: banner-default.jpg
 ---
 
-<section class="section--fixed-bg intro">
-  <div class="row row--padding">
-    <h1>{{ page.title }}</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <a href="offers.html" class="btn">Offers</a>
-  </div>
-</section>
+
+{% include banner.html %}
+
 
 <section>
-  <div class="row row--padding row--columns-4-4-4-gutters">
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
+
+  <div class="row row--padding align-center">
+    <h2>Golfing in France</h2>
+    <p class="lead">Donec id elit non mi porta gravida at eget metus. </p>
+    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
   </div>
+
+
   <div class="row row--padding">
-    <a href="#" class="btn">button</a>
+
+    {% assign categories = site.data.categories %}
+
+    {% for category-array in categories %}
+    {% assign category = category-array[1] %}
+      <a href="{{ site.baseurl }}/offers#{{ category.class }}" class="category"
+        style="background-image: url({{ site.baseurl }}/img/bg/category_bg-{{category.class}}.jpg);">
+        <div class="category__badge">
+          <h3>
+            <img class="category__badge-icon" src="{{site.baseurl}}/img/content/icon-{{category.class}}.png" width="80" />
+            {{ category.title | downcase }}
+          </h3>
+        </div>
+      </a>
+    {% endfor %}
+
   </div>
+
+  <div class="row row--padding align-center">
+    <a class="btn" href="{{ site.baseurl }}/offers">View all offers</a></a>
+  </div>
+
 </section>
 
-<section class="section--fixed-bg another">
-  <div class="row row--padding row--columns-4-8-gutters">
-    <p class="row__column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    <div class="row__column">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae harum quasi magni veniam eos laborum velit, provident laboriosam, distinctio laudantium voluptas natus sapiente nobis, amet. Maiores, quo eum iste quisquam!</p>
-    </div>
-  </div>
-</section>
+
+{% include france-banner.html %}

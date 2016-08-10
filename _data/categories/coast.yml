@@ -1,0 +1,53 @@
+navorder: 1
+title: Coast
+class: coast
+description: >
+  <p>From the chalky cliffs of Normandy to the bright and breezy Atlantic beaches of Biarritz and on to the pine-scented sun, sea and sand of the Côte d’Azur, France boasts nearly 3,500km of alluring coastline. The beaches may get busy when the French head out of town for the summer holidays, but there’s good golf all year round on the links and seaside ‘parcours’. Here are 10 coastal courses for you to enjoy.</p>
+offers:
+  - title: Coast 1
+    class: coast-1
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Coast 2
+    class: coast-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Coast 2
+    class: coast-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Coast 2
+    class: coast-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Coast 2
+    class: coast-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Coast 2
+    class: coast-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte

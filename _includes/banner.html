@@ -1,0 +1,31 @@
+<div class="banner align-center"
+  {% if page.banner-img %} style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});"{% endif %}>
+
+  <div class="row row--padding banner__content">
+    <h1 class="no-vm">{{ page.title | downcase }}</h1>
+    <hr class="center">
+    <p class="lead">Find your perfect golf break</p>
+  </div>
+
+  <div class="microsite-nav__holder">
+    <div class="microsite-nav row row--padding">
+      <ul class="microsite-nav__list">
+
+        {% assign nav-order = site.pages | sort:"nav-order" %}{% for page in nav-order %}{% if page.title %}
+        <li class="microsite-nav__item microsite-nav__item--{{ page.class }}">
+          <a class="microsite-nav__link" href="{{ site.baseurl }}{{ page.url }}">{{ page.title | downcase }}</a>
+        </li>
+        {% endif %}{% endfor %}
+
+        {% assign categories = site.data.categories %}{% for category-array in categories %}
+        {% assign category = category-array[1] %}
+        <li class="microsite-nav__item microsite-nav__item--{{ category.class }}">
+          <a class="microsite-nav__link" href="{{ site.baseurl }}/offers#{{ category.class }}">{{ category.title | downcase }}</a>
+        </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+
+</div>

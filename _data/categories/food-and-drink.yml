@@ -1,0 +1,21 @@
+navorder: 5
+title: Food and Drink
+class: food-and-drink
+description: >
+  <p>France is the world’s biggest producer of wine, crafting 4.5 billion litres each year. The country’s influence on global wine production is undeniable, exporting both its vines and viticulture expertise around the world. Wine has been produced in France since the 6th century BC, with many regions tracing their wine history to Roman times. </p><p>France retains its position as a global centre of culinary excellence and so a golf break to France offers the opportunity to experience world-class fare alongside world-class fairways. We’ve picked out 10 tasty treats for you to sample, so get ready to tee-up and then tuck-in as we embark on a golf and gastronomic tour de France.</p>
+offers:
+  - title: Food and Drink 1
+    class: food-and-drink-1
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Food and Drink 2
+    class: food-and-drink-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte

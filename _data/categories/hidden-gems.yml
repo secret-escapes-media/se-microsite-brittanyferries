@@ -1,0 +1,21 @@
+navorder: 4
+title: Hidden Gems
+class: hidden-gems
+description: >
+  <p>Golfers visiting France will often be drawn to the star attractions like Mont St-Michel in Normandy or Cannes on the French Riviera, not to mention the numerous must-see places in Paris. But there is much, much more to see in the world's most visited country, with many of the French attractions often hidden away or simply not well known enough to pull in the crowds, but that doesn't mean they're not well worth a visit – quite the contrary. Here is a selection of some of France’s best-kept golfing secrets. </p>
+offers:
+  - title: Hidden Gems 1
+    class: hidden-gems-1
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+
+  - title: Hidden Gems 2
+    class: hidden-gems-2
+    location: Region, Country
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
+    price: 999999
+    price-description: per room per night
+    link: http://speciale.in-lombardia.it/it/secret-escapes/arte

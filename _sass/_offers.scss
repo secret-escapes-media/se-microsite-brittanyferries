@@ -1,8 +1,41 @@
+
+// custom grid system for offers
+
+.offer-category {}
+
+.offer-category__column {
+  width: 49%; height: 320px; float: left; margin-left: 1%; 
+  @include bp( xlarge ) {
+    width: 32%; float: left; margin-left: 2%;
+  }
+}
+.offer-category__column:nth-child(2n+2) { margin-left: 0; }
+@include bp( xlarge ) {
+  .offer-category__column:nth-child(2n+2) { margin-left: 2%; }
+  .offer-category__column:nth-child(3n+3) {
+    margin-left: 0;
+  }
+}
+
+.offer-category__column.offer-category__intro {
+  padding: 20px 30px; margin-left: 0; width: 100%; overflow-x: scroll;
+  background-color: rgba(0,0,0,0.7); border: 1px solid rgba(255,255,255,0.25);
+  @include bp( xlarge ) {
+    width: 66%;
+  }
+}
+
+.offer-category__intro-icon {
+  position: absolute; top: -30px; left: -10px;
+}
+
 // styles for the offer blocks that appear on the terrain pages
 
 
 .offer {
-  background-color: $light-grey;
+  background-color: $white;
+  position: relative;
+  margin-bottom: 30px;
   .row__column{
     margin-top: 0;
   }
@@ -10,61 +43,38 @@
 
 .offer__image {
   position: relative;
-  height: 18em;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  background-size: cover;
-  @include bp( large ) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: auto;
-  }
+  overflow: hidden;
 }
 
-.offer__image-link {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.offer__image-link {}
+
+.offer__image img {
+  float: left;
 }
 
 .offer__content {
-  padding: $margin ($margin * 1.2);
+  padding: ($margin / 2);
   p + p { margin-top: .2em; }
 }
 
 .offer__content-title {
-  margin-bottom: .482em;
-  font-size: 1.728em;
+  margin-bottom: 0em;
+  font-size: 1.6em;
 }
 
 .offer__content-subtitle {
   margin-bottom: .833em;
-  font-size: 1.2em;
+  font-size: 1em;
+  letter-spacing: 0.05em;
   line-height: 1.44;
-  &:before {
-    content: "";
-    display: inline-block;
-    height: 1em;
-    width: .833em;
-    margin-right: .482em;
-    margin-bottom: .2em;
-    vertical-align: bottom;
-    background-image: url( "../img/icon/map-pin.png" );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-size: contain;
-    .svg & { background-image: url( "../img/icon/map-pin.svg" ); }
-  }
 }
 
 .offer__content-price {
   font-weight: bold;
-  font-size: 1.44em;
 }
+
+
+.offer__btn {
+  position: absolute; bottom: 0;
+  width: 100%; border-radius: 0; margin-top: 0;
+  text-align: center; }
