@@ -4,9 +4,15 @@
 .offer-category {}
 
 .offer-category__column {
-  width: 49%; height: 320px; float: left; margin-left: 1%; 
+  float: left;
+  margin-bottom: 30px;
+  @include bp( large ) {
+    width: 49%;
+    margin-left: 1%;
+    min-height: 320px;
+  }
   @include bp( xlarge ) {
-    width: 32%; float: left; margin-left: 2%;
+    width: 32%; margin-left: 2%;
   }
 }
 .offer-category__column:nth-child(2n+2) { margin-left: 0; }
@@ -19,7 +25,7 @@
 
 .offer-category__column.offer-category__intro {
   padding: 20px 30px; margin-left: 0; width: 100%; overflow-x: scroll;
-  background-color: rgba(0,0,0,0.7); border: 1px solid rgba(255,255,255,0.25);
+  background-color: rgba(0,0,0,0.7); border: 1px solid rgba(255,255,255,0.15);
   @include bp( xlarge ) {
     width: 66%;
   }
@@ -35,7 +41,7 @@
 .offer {
   background-color: $white;
   position: relative;
-  margin-bottom: 30px;
+  padding-bottom: 34px;
   .row__column{
     margin-top: 0;
   }
@@ -58,8 +64,9 @@
 }
 
 .offer__content-title {
-  margin-bottom: 0em;
+  margin-bottom: 0.2em;
   font-size: 1.6em;
+  line-height: 1;
 }
 
 .offer__content-subtitle {
@@ -76,5 +83,7 @@
 
 .offer__btn {
   position: absolute; bottom: 0;
-  width: 100%; border-radius: 0; margin-top: 0;
+  width: 100%;
+  border-radius: 0;
+  margin-top: 0;
   text-align: center; }

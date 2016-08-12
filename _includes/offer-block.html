@@ -2,13 +2,13 @@
 
   <div class="offer__image">
     <a class="offer__image-link" id="image-link-{{ offer.class }}" href="{{ offer.link }}">
-      <img src="{{ site.baseurl }}/img/offers/{{ offer.class }}.jpg" width="100%" alt="{{ offer.title }}" />
+      <img src="{{ site.baseurl }}/img/offers/offer-{{ offer.class }}.jpg" width="100%" alt="{{ offer.title }}" />
     </a>
   </div>
 
   <div class="offer__content">
     <h2 class="offer__content-title"><a id="title-link-{{ offer.class }}" href="{{ offer.url }}">{{ offer.title }}</a></h2>
-    <h3 class="h4 offer__content-subtitle">{{ offer.location }}</h3>
+    {%if offer.nights%}<h3 class="h4 offer__content-subtitle">{{ offer.nights }} nights stay</h3>{%endif%}
     <p class="sm">{{ offer.description }}</p>
   </div>
 

@@ -34,7 +34,7 @@ $se-dark-grey-85: rgba(41,39,40,.85);
 $blue:           #21409a;
 $light-charcoal: #383734;
 $charcoal:       #16160e;
-$cream:          #eaeae1;
+$cream:          #f3f3ed;
 
 
 // -------- breakpoints --------
@@ -60,6 +60,24 @@ $small:   300px;
   }
   @if $width == small {
     @media (min-width:$small) {@content;}
+  }
+}
+
+@mixin max-bp($width){
+  @if $width == xxlarge {
+    @media (max-width:$xxlarge) {@content;}
+  }
+  @if $width == xlarge {
+    @media (max-width:$xlarge) {@content;}
+  }
+  @if $width == large {
+    @media (max-width:$large) {@content;}
+  }
+  @if $width == medium {
+    @media (max-width:$medium) {@content;}
+  }
+  @if $width == small {
+    @media (max-width:$small) {@content;}
   }
 }
 
@@ -107,7 +125,7 @@ a {
 
 // -------- enable 100% height --------
 
-body, html { height: 100%; background-color: #f5f5ed; background-image: url('../img/bg/body.jpg');}
+body, html { height: 100%; background-color: #eaeae1; }
 
 
 // -------- general transition --------

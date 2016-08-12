@@ -19,8 +19,8 @@ section {
   padding-top: 2.5315em;
   padding-bottom: 2.5315em;
   @include bp( large ) {
-    padding-top: 5.096em;
-    padding-bottom: 5.096em;
+    padding-top: 3.096em;
+    padding-bottom: 3.096em;
   }
 }
 
@@ -111,3 +111,11 @@ section {
   }
 
 }
+
+// -------- breakpoint hide elements --------
+
+@include max-bp(small){ .bp-hide--small { display: none; } }
+@include max-bp(medium){ .bp-hide--medium { display: none; } }
+@include max-bp(large){ .bp-hide--large { display: none; } }
+@include max-bp(xlarge){ .bp-hide--xlarge { display: none; } }
+@include max-bp(xxlarge){ .bp-hide--xxlarge { display: none; } }

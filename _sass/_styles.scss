@@ -32,6 +32,14 @@
   background-position: center 0;
 }
 
+@include max-bp( large ) {
+  .section--fixed-bg.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center !important;
+  }
+}
+
 .banner {
   background-image: url('../img/bg/banner-default.jpg');
   background-size: cover;
@@ -92,7 +100,7 @@
 }
 
 .btn__sm {
-  padding: .4em 1em;
+  padding: .45em 1em;
   border-radius: 3px;
   display: block;
   position: relative;

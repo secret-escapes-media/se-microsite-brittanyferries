@@ -4,50 +4,42 @@ class: coast
 description: >
   <p>From the chalky cliffs of Normandy to the bright and breezy Atlantic beaches of Biarritz and on to the pine-scented sun, sea and sand of the Côte d’Azur, France boasts nearly 3,500km of alluring coastline. The beaches may get busy when the French head out of town for the summer holidays, but there’s good golf all year round on the links and seaside ‘parcours’. Here are 10 coastal courses for you to enjoy.</p>
 offers:
-  - title: Coast 1
-    class: coast-1
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
-    price-description: per room per night
-    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+  - title: Golf break to Dinan, Brittany
+    class: luxury-dinan-brittany
+    nights: 3
+    description: Includes return sailings with car, cabin on outward overnight sailing, 2 nights hotel (B&B) and 3 rounds of golf
+    price: 240
+    price-description: per person
+    link: http://www.brittany-ferries.co.uk/golf/france/northern-brittany
 
-  - title: Coast 2
-    class: coast-2
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
-    price-description: per room per night
-    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+  - title: Golf break to Honfleur, Normandy
+    class: luxury-honfleur-normandy
+    nights: 3
+    description: Includes return sailings with car, cabin on outward overnight sailing - 2 nights hotel (B&B), and 3 rounds of golf
+    price: 248
+    price-description: per person
+    link: http://www.brittany-ferries.co.uk/golf/france/normandy-parkland-and-paris
 
-  - title: Coast 2
-    class: coast-2
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
-    price-description: per room per night
-    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+  - title: Golf break to Brest, Brittany
+    class: luxury-brest-brittany
+    nights: 3
+    description: Includes return sailings with car, cabin on outward overnight sailing, 2 nights hotel (B&B) and 2 rounds of golf
+    price: 205
+    price-description: per person
+    link: http://www.brittany-ferries.co.uk/golf/france/southern-brittany
 
-  - title: Coast 2
-    class: coast-2
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
-    price-description: per room per night
-    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+  - title: Golf break to Omaha Beach, Normandy
+    class: luxury-omaha-beach-normandy
+    nights: 3
+    description: Includes return sailings with car, cabin on outward overnight sailing, 2 nights hotel (B&B) and 3 rounds of golf
+    price: 210
+    price-description: per person
+    link: http://www.brittany-ferries.co.uk/golf/france/st-malo-and-western-normandy
 
-  - title: Coast 2
-    class: coast-2
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
-    price-description: per room per night
-    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
-
-  - title: Coast 2
-    class: coast-2
-    location: Region, Country
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure architecto eum exercitationem neque.
-    price: 999999
-    price-description: per room per night
-    link: http://speciale.in-lombardia.it/it/secret-escapes/arte
+  - title: Golf break to La Baule, Western Loire
+    class: luxury-la-baule-western-loire
+    nights: 5
+    description: Includes return overnight sailings with car and cabin, 3 nights hotel (B&B) and 4 rounds of golf
+    price: 210
+    price-description: per person
+    link: http://www.brittany-ferries.co.uk/golf/france/loire-atlantique
