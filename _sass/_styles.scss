@@ -61,24 +61,47 @@
 
 .category {
   @include transition;
-  margin: 5px 0; position: relative; height: 180px; display: block;
+  margin: 5px 0; position: relative; height: 180px; display: block; border-radius: 3px;
   background-size: 105%; background-position: center; background-repeat: no-repeat; }
 .category:hover { background-size: 100%; }
 
 .category__badge {
-  @include transition;
-  position: absolute; top: 50%; margin-top: -27.5px; left: 0; z-index: 1;
-  padding: 3px 15px; height: 55px; background-image: url('../img/bg/category_badge-bg.png'); }
+  position: absolute; top: 50%; margin-top: -27.5px; width: 100%;
+}
+.category__badge:hover { text-decoration: none; }
+.category__badge-icon { display: none; }
 .category__badge h3 {
   text-align: center; font-family: $title-font-family; text-transform: lowercase; font-size: 2.4em;
-  color: $charcoal; line-height: 1.3; margin: 0; letter-spacing: 0.05em;
+  color: $white; line-height: 1.3; margin: 0; letter-spacing: 0.05em; text-shadow: 0 0 10px black;
 }
-.category__badge:after {
-  content: ""; background-image: url('../img/bg/category_badge-after.png'); background-size: contain; background-repeat: no-repeat; background-position: left center;
-  height: 100%; width: 50px; position: absolute; left: 100%; top: 0; }
-.category__badge:hover { text-decoration: none; }
 
-.category__badge-icon { float: left; display: inline-block; margin-top: -15px; margin-right: 15px; }
+@include bp( large ) {
+
+  .category__badge {
+    @include transition;
+    width: auto;
+    left: 0; z-index: 1;
+    padding: 3px 15px; height: 55px;
+    background-image: url('../img/bg/category_badge-bg.png'); }
+
+  .category__badge h3 { color: $charcoal; text-shadow: none; }
+
+  .category__badge:after {
+    content: "";
+    background-image: url('../img/bg/category_badge-after.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 100%; width: 50px;
+    position: absolute; left: 100%; top: 0; }
+
+
+  .category__badge-icon {
+    float: left;
+    display: inline-block;
+    margin-top: -15px; margin-right: 15px; }
+
+}
 
 // ---------- button ----------
 

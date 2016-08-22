@@ -52,18 +52,17 @@
   var currentPage = $('body').data('current-page');
   $('.' + currentPage + ' .microsite-nav__item--' + currentPage).addClass('microsite-nav__item--current');
 
-  // stuck microsite-nav
-  $(document).scroll(function(){
 
+  // stuck microsite-nav
+  var msNav_offset = $('.microsite-nav__holder').offset();
+  $(document).scroll(function(){
     var nav = $('.microsite-nav__holder');
     var scrolled = $(document).scrollTop();
-
-    if( scrolled > 547 ){
+    if( scrolled > msNav_offset.top ){
       nav.addClass('stuck');
     }else{
       nav.removeClass('stuck');
     }
-
   });
 
 
