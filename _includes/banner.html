@@ -17,10 +17,18 @@
         </li>
         {% endif %}{% endfor %}
 
-        {% assign categories = site.data.categories %}{% for category-array in categories %}
+        {% assign categories = site.data.categories %}
+        {% for category-array in categories %}
         {% assign category = category-array[1] %}
         <li class="microsite-nav__item microsite-nav__item--{{ category.class }}">
-          <a class="microsite-nav__link" href="{{ site.baseurl }}/offers#{{ category.class }}">{{ category.title | downcase }}</a>
+          <a class="microsite-nav__link" href="
+            {% if page.class == 'overview' %}
+              {{ site.baseurl }}/offers#{{ category.class }}
+            {% else %}
+              #{{ category.class }}
+            {% endif %}">
+            {{ category.title | downcase }}
+        </a>
         </li>
         {% endfor %}
 

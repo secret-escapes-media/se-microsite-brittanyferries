@@ -1,8 +1,8 @@
 # Site settings
-title: Brittany Ferries
+title: Golf in France
 description: >
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi veniam voluptatibus totam accusantium laborum quo dolore.
-baseurl: "/brittanyferries" # the subpath of your site, e.g. /blog/
+baseurl: "/golf-in-france" # the subpath of your site, e.g. /blog/
 url: "https://www.secretescapes.com" # the base hostname & protocol for your site
 
 # Build settings

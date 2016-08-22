@@ -2,7 +2,7 @@ navorder: 1
 title: Coast
 class: coast
 description: >
-  <p>From the chalky cliffs of Normandy to the bright and breezy Atlantic beaches of Biarritz and on to the pine-scented sun, sea and sand of the Côte d’Azur, France boasts nearly 3,500km of alluring coastline. The beaches may get busy when the French head out of town for the summer holidays, but there’s good golf all year round on the links and seaside ‘parcours’. Here are 10 coastal courses for you to enjoy.</p>
+  <p>From the chalky cliffs of Normandy to the bright and breezy Atlantic beaches of Biarritz and on to the pine-scented sun, sea and sand of the Côte d’Azur, France boasts nearly 3,500km of alluring coastline. The beaches may get busy when the French head out of town for the summer holidays, but there’s good golf all year round on the links and seaside ‘parcours’. Here are 5 coastal courses for you to enjoy.</p>
 offers:
   - title: Golf break to Dinan, Brittany
     class: luxury-dinan-brittany
@@ -40,6 +40,6 @@ offers:
     class: luxury-la-baule-western-loire
     nights: 5
     description: Includes return overnight sailings with car and cabin, 3 nights hotel (B&B) and 4 rounds of golf
-    price: 210
+    price: 356
     price-description: per person
     link: http://www.brittany-ferries.co.uk/golf/france/loire-atlantique

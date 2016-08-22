@@ -24,7 +24,7 @@
 }
 
 .offer-category__column.offer-category__intro {
-  padding: 20px 30px; margin-left: 0; width: 100%; overflow-x: scroll;
+  padding: 20px 30px; margin-left: 0; width: 100%; 
   background-color: rgba(0,0,0,0.7); border: 1px solid rgba(255,255,255,0.15);
   @include bp( xlarge ) {
     width: 66%;
