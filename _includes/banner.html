@@ -1,11 +1,17 @@
 <div class="banner align-center"
   {% if page.banner-img %} style="background-image: url({{ site.baseurl }}/img/bg/{{page.banner-img}});"{% endif %}>
 
+  {% if page.class == 'overview' %}
+  <div class="row row--padding banner__content">
+    <h1 class="no-vm">Find your perfect golf break</h1>
+  </div>
+  {% else %}
   <div class="row row--padding banner__content">
     <h1 class="no-vm">{{ page.title | downcase }}</h1>
     <hr class="center">
-    <p class="lead">Find your perfect golf break</p>
+    <h4>Find your perfect golf break</h4>
   </div>
+  {% endif %}
 
   <div class="microsite-nav__holder">
     <div class="microsite-nav row row--padding">
