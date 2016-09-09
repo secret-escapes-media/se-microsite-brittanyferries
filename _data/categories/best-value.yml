@@ -6,7 +6,7 @@ description: >
 offers:
   - title: Play & Stay
     class: play-and-stay
-    nights: 1
+    nights: 1 night
     description: Includes one night hotel stay (B&B), two rounds of golf and return sailings with car
     price:  99
     price-description: per person

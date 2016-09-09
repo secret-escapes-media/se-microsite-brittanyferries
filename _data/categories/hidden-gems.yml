@@ -6,7 +6,7 @@ description: >
 offers:
   - title: Golf break to Sables d'Or, Brittany
     class: hidden-gems-sables-dor-brittany
-    nights: 4
+    nights: 4 nights
     description: Includes return sailings with car, cabin on outward overnight sailing - 3 nights hotel (B&B) and 4 rounds of golf
     price: 309
     price-description: per person
@@ -14,7 +14,7 @@ offers:
 
   - title: Golf break to Le Mans, Loire Valley
     class: hidden-gems-le-mans-loire-vallery
-    nights: 5
+    nights: 5 nights
     description: Includes return overnight sailings with your car and cabin, 3 nights hotel (B&B) and 4 rounds of golf
     price: 317
     price-description: per person

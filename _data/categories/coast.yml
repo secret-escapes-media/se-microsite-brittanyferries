@@ -6,7 +6,7 @@ description: >
 offers:
   - title: Golf break to Dinan, Brittany
     class: luxury-dinan-brittany
-    nights: 3
+    nights: 3 nights
     description: Includes return sailings with car, cabin on outward overnight sailing, 2 nights hotel (B&B) and 3 rounds of golf
     price: 240
     price-description: per person
@@ -14,7 +14,7 @@ offers:
 
   - title: Golf break to Honfleur, Normandy
     class: luxury-honfleur-normandy
-    nights: 3
+    nights: 3 nights
     description: Includes return sailings with car, cabin on outward overnight sailing - 2 nights hotel (B&B), and 3 rounds of golf
     price: 248
     price-description: per person
@@ -22,7 +22,7 @@ offers:
 
   - title: Golf break to Brest, Brittany
     class: luxury-brest-brittany
-    nights: 3
+    nights: 3 nights
     description: Includes return sailings with car, cabin on outward overnight sailing, 2 nights hotel (B&B) and 2 rounds of golf
     price: 205
     price-description: per person
@@ -30,7 +30,7 @@ offers:
 
   - title: Golf break to Omaha Beach, Normandy
     class: luxury-omaha-beach-normandy
-    nights: 3
+    nights: 3 nights
     description: Includes return sailings with car, cabin on outward overnight sailing, 2 nights hotel (B&B) and 3 rounds of golf
     price: 210
     price-description: per person
@@ -38,7 +38,7 @@ offers:
 
   - title: Golf break to La Baule, Western Loire
     class: luxury-la-baule-western-loire
-    nights: 5
+    nights: 5 nights
     description: Includes return overnight sailings with car and cabin, 3 nights hotel (B&B) and 4 rounds of golf
     price: 356
     price-description: per person

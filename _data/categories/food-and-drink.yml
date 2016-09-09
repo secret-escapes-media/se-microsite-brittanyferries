@@ -6,7 +6,7 @@ description: >
 offers:
   - title: Golf break to Bordeaux
     class: food-and-drink-bordeaux
-    nights: 6
+    nights: 6 nights
     description: Includes overnight sailing to France with car and cabin, 4 nights hotel (B&B), 3 rounds of golf and return overnight cruise from Spain to UK with cabin
     price: 481
     price-description: per person
